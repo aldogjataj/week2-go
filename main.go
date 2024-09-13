@@ -35,7 +35,7 @@ func CorsMiddleware(next http.Handler) http.Handler {
 
 func rootHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Println("serving route /")
-	io.WriteString(w, "Hello Airah")
+	io.WriteString(w, "Hello Aldo")
 }
 
 // func simple_main() {
